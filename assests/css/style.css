@@ -35,6 +35,7 @@ h1 {
     font-size: 24px;
     color: #ffffff;
     text-align: center;
+    margin: 0 auto;
 }
 
 h2 {
@@ -67,9 +68,8 @@ p {
 }
 
 .navbar {
-    padding-top: 35px;
+    padding-top: 15px;
     float: right;
-
 }
 
 li {
