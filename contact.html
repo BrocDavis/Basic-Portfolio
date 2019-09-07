@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,47 +9,52 @@
 
     <link rel="stylesheet" type="text/css" href="./assests/css/style.css">
 </head>
+
 <body>
-        <header>
-                <div class="container">
-                    <section id="logo">
-                        <h1>Broc Davis</h1>
-                    </section>
-                    <nav>
-                        <div>
-                            <a href="index.html">About</a>
-                            <a href="portfolio.html">Portfolio</a>
-                            <a href="contact.html">Contact</a>
-                        </div>
-                    </nav>
-                </div>
-            </header>
+    <header>
+        <div class="container">
+            <section id="logo">
+                <h1>Broc Davis</h1>
+            </section>
+            <nav>
+                <ul class="navbar">
 
-<div class="container">
-    <section id="form">
-        <h2 class="padding">Contact</h2>
-        <hr class="heavy">
-        <form>
-            <fieldset>
-<label for="name">Name</label>
-<br>
-<input type="text" name="fullname" placeholder="John Smith">
-<br>
-<label for="email">Email</label>
-<br>
-<input type="email" name="fullEmail" placeholder="Test@test.com">
-<br>
-<label for="message">Message</label>
-<br>
-<textarea rows="4" cols="50"></textarea>
+                    <li><a href="index.html">About</a></li>
+                    <li>|</li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li>|</li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-            </fieldset>
-        </form>
-    </section>
+    <div class="container">
+        <section id="form">
+            <h2 class="padding">Contact</h2>
+            <hr class="heavy">
+            <form action="#">
 
-</div>
+                    <label for="name">Name</label>
+                    <br>
+                    <input type="text" name="fullname" placeholder="John Smith">
+                    <br>
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="email" name="fullEmail" placeholder="Test@test.com">
+                    <br>
+                    <label for="message">Message</label>
+                    <br>
+                    <textarea id="message" name="mytextarea"></textarea>
+                    <br>
+                    <input type="submit">
+            </form>
+        </section>
+
+    </div>
 
 
     <footer class="sticky">&#169; Copyright 2019 Broc Davis</footer>
 </body>
+
 </html>
